@@ -34,6 +34,13 @@ table {
 <body>
 <?php
 
+include_once("/srv/www/www3/inc/config.inc.php");
+include_once("/srv/www/www3/inc/dz_class.php");
+
+$dz = new Dzogchen();
+$data = $dz->get_bannerdata();
+
+
 $rows = 16;
 $cols = 10;
 $extra = 11;
@@ -47,7 +54,12 @@ for ($j = 0; $j < $cols; $j++) {
     echo "<tr>";
 
     for ($i = 0; $i < $rows; $i++) {
-         echo "<td id='$l' class='selled' title='$l - test text'>$l</td>";
+         $text = $data[$l-1]['value'];
+         echo "<td id='$l'";
+         if (empty($text)) {
+         echo "class='selled' ";
+         }
+         echo "title='$text'>$l</td>";
          $l++;
     }   
 
@@ -57,7 +69,13 @@ for ($j = 0; $j < $cols; $j++) {
 
 echo "<tr>";
 for ($i = 0; $i < $extra; $i++) {
-     echo "<td class='selled' ''id='$l'>$l</td>";
+    echo "<td";
+    $text = $data[$l-1]['value'];
+    if (empty($text)) {
+        echo " class='selled' ";
+    }
+    echo "id='$text'>$l</td>";
+
      $l++;
 }
 echo "</tr>\n";
