@@ -34,6 +34,11 @@ table {
 <body>
 <?php
 
+include_once ("/srv/www/www3/inc/config.inc.php");
+include_once ("/srv/www/www3/inc/dz_class.php");
+
+
+
 $rows = 16;
 $cols = 10;
 $extra = 11;
