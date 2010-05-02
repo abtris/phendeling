@@ -14,6 +14,10 @@ td {
      color: black;
 }
 
+td.selled {
+    background: green;
+}
+
 table {
     position: relative;
     top: 100px; 
@@ -43,7 +47,7 @@ for ($j = 0; $j < $cols; $j++) {
     echo "<tr>";
 
     for ($i = 0; $i < $rows; $i++) {
-         echo "<td id='$l' title='$l - test text'>$l</td>";
+         echo "<td id='$l' class='selled' title='$l - test text'>$l</td>";
          $l++;
     }   
 
@@ -53,7 +57,7 @@ for ($j = 0; $j < $cols; $j++) {
 
 echo "<tr>";
 for ($i = 0; $i < $extra; $i++) {
-     echo "<td id='$l'>$l</td>";
+     echo "<td class='selled' ''id='$l'>$l</td>";
      $l++;
 }
 echo "</tr>\n";
