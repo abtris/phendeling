@@ -1,177 +1,39 @@
 ﻿<?php
- echo '<?xml version="1.0" encoding="utf-8" ?>
-<tiles>
-	<tile owner="" status="free" x="0" y="0" id="0:0" />
-	<tile owner="" status="free" x="0" y="1" id="0:1" />
-	<tile owner="" status="free" x="0" y="2" id="0:2" />
-	<tile owner="Martin Boháčěšéíáů" status="sold" x="0" y="3" id="0:3" />
-	<tile owner="" status="free" x="0" y="4" id="0:4" />
-	<tile owner="" status="free" x="0" y="5" id="0:5" />
-	<tile owner="" status="sold" x="0" y="6" id="0:6" />
-	<tile owner="" status="free" x="0" y="7" id="0:7" />
-	<tile owner="" status="free" x="0" y="8" id="0:8" />
-	<tile owner="" status="free" x="0" y="9" id="0:9" />
-	<tile owner="" status="free" x="0" y="10" id="0:10" />
-	<tile owner="" status="free" x="0" y="11" id="0:11" />
-	<tile owner="" status="free" x="0" y="12" id="0:12" />
-	<tile owner="" status="free" x="0" y="13" id="0:13" />
-	<tile owner="" status="free" x="0" y="14" id="0:14" />
-	<tile owner="" status="free" x="0" y="15" id="0:15" />
-	<tile owner="" status="free" x="1" y="0" id="1:0" />
-	<tile owner="" status="free" x="1" y="1" id="1:1" />
-	<tile owner="" status="free" x="1" y="2" id="1:2" />
-	<tile owner="" status="free" x="1" y="3" id="1:3" />
-	<tile owner="" status="free" x="1" y="4" id="1:4" />
-	<tile owner="" status="free" x="1" y="5" id="1:5" />
-	<tile owner="" status="free" x="1" y="6" id="1:6" />
-	<tile owner="" status="free" x="1" y="7" id="1:7" />
-	<tile owner="" status="free" x="1" y="8" id="1:8" />
-	<tile owner="" status="free" x="1" y="9" id="1:9" />
-	<tile owner="" status="free" x="1" y="10" id="1:10" />
-	<tile owner="" status="free" x="1" y="11" id="1:11" />
-	<tile owner="" status="free" x="1" y="12" id="1:12" />
-	<tile owner="" status="free" x="1" y="13" id="1:13" />
-	<tile owner="" status="free" x="1" y="14" id="1:14" />
-	<tile owner="" status="free" x="1" y="15" id="1:15" />
-	<tile owner="jashd" status="sold" x="2" y="0" id="2:0" />
-	<tile owner="" status="free" x="2" y="1" id="2:1" />
-	<tile owner="" status="free" x="2" y="2" id="2:2" />
-	<tile owner="" status="free" x="2" y="3" id="2:3" />
-	<tile owner="" status="free" x="2" y="4" id="2:4" />
-	<tile owner="" status="free" x="2" y="5" id="2:5" />
-	<tile owner="" status="free" x="2" y="6" id="2:6" />
-	<tile owner="" status="free" x="2" y="7" id="2:7" />
-	<tile owner="" status="free" x="2" y="8" id="2:8" />
-	<tile owner="" status="free" x="2" y="9" id="2:9" />
-	<tile owner="" status="free" x="2" y="10" id="2:10" />
-	<tile owner="" status="free" x="2" y="11" id="2:11" />
-	<tile owner="" status="free" x="2" y="12" id="2:12" />
-	<tile owner="" status="free" x="2" y="13" id="2:13" />
-	<tile owner="" status="free" x="2" y="14" id="2:14" />
-	<tile owner="" status="free" x="2" y="15" id="2:15" />
-	<tile owner="" status="free" x="3" y="0" id="3:0" />
-	<tile owner="" status="free" x="3" y="1" id="3:1" />
-	<tile owner="" status="free" x="3" y="2" id="3:2" />
-	<tile owner="" status="free" x="3" y="3" id="3:3" />
-	<tile owner="" status="free" x="3" y="4" id="3:4" />
-	<tile owner="" status="free" x="3" y="5" id="3:5" />
-	<tile owner="" status="free" x="3" y="6" id="3:6" />
-	<tile owner="" status="free" x="3" y="7" id="3:7" />
-	<tile owner="" status="free" x="3" y="8" id="3:8" />
-	<tile owner="" status="free" x="3" y="9" id="3:9" />
-	<tile owner="" status="free" x="3" y="10" id="3:10" />
-	<tile owner="" status="free" x="3" y="11" id="3:11" />
-	<tile owner="" status="free" x="3" y="12" id="3:12" />
-	<tile owner="" status="free" x="3" y="13" id="3:13" />
-	<tile owner="" status="free" x="3" y="14" id="3:14" />
-	<tile owner="" status="free" x="3" y="15" id="3:15" />
-	<tile owner="" status="free" x="4" y="0" id="4:0" />
-	<tile owner="" status="free" x="4" y="1" id="4:1" />
-	<tile owner="" status="free" x="4" y="2" id="4:2" />
-	<tile owner="" status="free" x="4" y="3" id="4:3" />
-	<tile owner="" status="free" x="4" y="4" id="4:4" />
-	<tile owner="" status="free" x="4" y="5" id="4:5" />
-	<tile owner="" status="free" x="4" y="6" id="4:6" />
-	<tile owner="" status="free" x="4" y="7" id="4:7" />
-	<tile owner="" status="free" x="4" y="8" id="4:8" />
-	<tile owner="" status="free" x="4" y="9" id="4:9" />
-	<tile owner="" status="free" x="4" y="10" id="4:10" />
-	<tile owner="" status="free" x="4" y="11" id="4:11" />
-	<tile owner="" status="free" x="4" y="12" id="4:12" />
-	<tile owner="" status="free" x="4" y="13" id="4:13" />
-	<tile owner="" status="free" x="4" y="14" id="4:14" />
-	<tile owner="" status="free" x="4" y="15" id="4:15" />
-	<tile owner="" status="free" x="5" y="0" id="5:0" />
-	<tile owner="" status="free" x="5" y="1" id="5:1" />
-	<tile owner="" status="free" x="5" y="2" id="5:2" />
-	<tile owner="" status="free" x="5" y="3" id="5:3" />
-	<tile owner="" status="free" x="5" y="4" id="5:4" />
-	<tile owner="" status="free" x="5" y="5" id="5:5" />
-	<tile owner="" status="free" x="5" y="6" id="5:6" />
-	<tile owner="" status="free" x="5" y="7" id="5:7" />
-	<tile owner="" status="free" x="5" y="8" id="5:8" />
-	<tile owner="" status="free" x="5" y="9" id="5:9" />
-	<tile owner="" status="free" x="5" y="10" id="5:10" />
-	<tile owner="" status="free" x="5" y="11" id="5:11" />
-	<tile owner="" status="free" x="5" y="12" id="5:12" />
-	<tile owner="" status="free" x="5" y="13" id="5:13" />
-	<tile owner="" status="free" x="5" y="14" id="5:14" />
-	<tile owner="" status="free" x="5" y="15" id="5:15" />
-	<tile owner="" status="free" x="6" y="0" id="6:0" />
-	<tile owner="" status="free" x="6" y="1" id="6:1" />
-	<tile owner="" status="free" x="6" y="2" id="6:2" />
-	<tile owner="" status="free" x="6" y="3" id="6:3" />
-	<tile owner="" status="free" x="6" y="4" id="6:4" />
-	<tile owner="" status="free" x="6" y="5" id="6:5" />
-	<tile owner="" status="free" x="6" y="6" id="6:6" />
-	<tile owner="" status="free" x="6" y="7" id="6:7" />
-	<tile owner="" status="free" x="6" y="8" id="6:8" />
-	<tile owner="" status="free" x="6" y="9" id="6:9" />
-	<tile owner="" status="free" x="6" y="10" id="6:10" />
-	<tile owner="" status="free" x="6" y="11" id="6:11" />
-	<tile owner="" status="free" x="6" y="12" id="6:12" />
-	<tile owner="" status="free" x="6" y="13" id="6:13" />
-	<tile owner="" status="free" x="6" y="14" id="6:14" />
-	<tile owner="" status="free" x="6" y="15" id="6:15" />
-	<tile owner="" status="free" x="7" y="0" id="7:0" />
-	<tile owner="" status="free" x="7" y="1" id="7:1" />
-	<tile owner="" status="free" x="7" y="2" id="7:2" />
-	<tile owner="" status="free" x="7" y="3" id="7:3" />
-	<tile owner="" status="free" x="7" y="4" id="7:4" />
-	<tile owner="" status="free" x="7" y="5" id="7:5" />
-	<tile owner="" status="free" x="7" y="6" id="7:6" />
-	<tile owner="" status="free" x="7" y="7" id="7:7" />
-	<tile owner="" status="free" x="7" y="8" id="7:8" />
-	<tile owner="" status="free" x="7" y="9" id="7:9" />
-	<tile owner="" status="free" x="7" y="10" id="7:10" />
-	<tile owner="" status="free" x="7" y="11" id="7:11" />
-	<tile owner="" status="free" x="7" y="12" id="7:12" />
-	<tile owner="" status="free" x="7" y="13" id="7:13" />
-	<tile owner="" status="free" x="7" y="14" id="7:14" />
-	<tile owner="" status="free" x="7" y="15" id="7:15" />
-	<tile owner="" status="free" x="8" y="0" id="8:0" />
-	<tile owner="" status="free" x="8" y="1" id="8:1" />
-	<tile owner="" status="free" x="8" y="2" id="8:2" />
-	<tile owner="" status="free" x="8" y="3" id="8:3" />
-	<tile owner="" status="free" x="8" y="4" id="8:4" />
-	<tile owner="" status="free" x="8" y="5" id="8:5" />
-	<tile owner="" status="free" x="8" y="6" id="8:6" />
-	<tile owner="" status="free" x="8" y="7" id="8:7" />
-	<tile owner="" status="free" x="8" y="8" id="8:8" />
-	<tile owner="" status="free" x="8" y="9" id="8:9" />
-	<tile owner="" status="free" x="8" y="10" id="8:10" />
-	<tile owner="" status="free" x="8" y="11" id="8:11" />
-	<tile owner="" status="free" x="8" y="12" id="8:12" />
-	<tile owner="" status="free" x="8" y="13" id="8:13" />
-	<tile owner="" status="free" x="8" y="14" id="8:14" />
-	<tile owner="" status="free" x="8" y="15" id="8:15" />
-	<tile owner="" status="free" x="9" y="0" id="9:0" />
-	<tile owner="" status="free" x="9" y="1" id="9:1" />
-	<tile owner="" status="free" x="9" y="2" id="9:2" />
-	<tile owner="" status="free" x="9" y="3" id="9:3" />
-	<tile owner="" status="free" x="9" y="4" id="9:4" />
-	<tile owner="" status="free" x="9" y="5" id="9:5" />
-	<tile owner="" status="free" x="9" y="6" id="9:6" />
-	<tile owner="" status="free" x="9" y="7" id="9:7" />
-	<tile owner="" status="free" x="9" y="8" id="9:8" />
-	<tile owner="" status="free" x="9" y="9" id="9:9" />
-	<tile owner="" status="free" x="9" y="10" id="9:10" />
-	<tile owner="" status="free" x="9" y="11" id="9:11" />
-	<tile owner="" status="free" x="9" y="12" id="9:12" />
-	<tile owner="" status="free" x="9" y="13" id="9:13" />
-	<tile owner="" status="free" x="9" y="14" id="9:14" />
-	<tile owner="" status="free" x="9" y="15" id="9:15" />
-	<tile owner="" status="free" x="10" y="0" id="10:0" />
-	<tile owner="" status="free" x="10" y="1" id="10:1" />
-	<tile owner="" status="free" x="10" y="2" id="10:2" />
-	<tile owner="" status="free" x="10" y="3" id="10:3" />
-	<tile owner="" status="free" x="10" y="4" id="10:4" />
-	<tile owner="" status="free" x="10" y="5" id="10:5" />
-	<tile owner="" status="free" x="10" y="6" id="10:6" />
-	<tile owner="" status="free" x="10" y="7" id="10:7" />
-	<tile owner="" status="free" x="10" y="8" id="10:8" />
-	<tile owner="" status="free" x="10" y="9" id="10:9" />
-	<tile owner="dsdsd343ěčěč+ěš+ěš" status="free" x="10" y="10" id="10:10" />
-</tiles>';
+
+include_once("/srv/www/www3/inc/config.inc.php");
+include_once("/srv/www/www3/inc/dz_class.php");
+
+$dz = new Dzogchen();
+$data = $dz->get_bannerdata();
+
+
+$xml = '<?xml version="1.0" encoding="utf-8" ?>
+<tiles>'."\n";
+
+
+$id = 0;
+for ($x=0;$x<10;$x++) {
+    for ($y=0;$y<=15;$y++) {
+        $owner = $data[$id]['value'];            
+        if (empty($owner)) $status = "free";
+        else $status = "sold";
+        $xml .= '<tile owner="'.$owner.'" status="'.$status.'" x="'.$x.'" y="'.$y.'" id="'.$id.'" />'."\n";
+        $id++;
+    }
+
+}
+
+for ($y=0; $y<=9; $y++) {
+    $owner = $data[$id]['value'];            
+    if (empty($owner)) $status = "free";
+    else $status = "sold";   
+    $xml.= '<tile owner="'.$owner.'" status="'.$status.'" x="10" y="'.$y.'" id="'.$id.'" />'."\n";
+    $id++;
+}
+
+$xml .= '</tiles>'."\n";
+
+
+echo $xml;
 
 ?>
